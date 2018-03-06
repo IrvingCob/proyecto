@@ -1,0 +1,21 @@
+{
+  "name": "practica0",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "practica"
+  ],
+  "author": "Irving Cob",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7",
+    "path": "^0.12.7",
+    "random-integer": "^2.0.0"
+  }
+}

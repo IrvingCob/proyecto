@@ -1,0 +1,46 @@
+
+<center><h2>Listado de clientes</h2></center>
+
+<!--
+<div ng-repeat="tarea in ctl.tareas">
+  <ng-tarea></ng-tarea>
+</div>
+
+<br>
+-->
+
+
+<center><h3></h3></center>
+<table >
+              <theader>
+                  <b><th>Nombre</th></b>
+                  <b><th>Apellido</th></b>
+                  <b><th>Edad</th></b>
+                  <b><th>Teléfono</th></b>
+                  <b><th>Estado civil</th></b>
+                  <b><th>Historial Compra</th></b>
+                  <b><th>Tipo Compra</th></b>
+                  <b><th>Ocupación</th></b>
+                  <b><th>Ubicación</th></b>
+                  <b><th>Código Postal</th></b>
+                  <b><th>Sexo</th></b>
+                  
+              </theader>
+          <tbody>
+              <tr ng-repeat="c in ctl.clientes">
+                    <td><a title="Detalles" href="#!/cliente/{{c._id}}" >{{c.nombre}}</a> </td>
+                    <td>{{c.apellido}}</td>
+                    <td>{{c.edad}}</td>
+                    <td>{{c.telefono}}</td>
+                    <td>{{c.estadoCivil}}</td>
+                    <td>{{c.historialCompra}}</td>
+                    <td>{{c.tipoCompra}}</td>
+                    <td>{{c.ocupacion}}</td>
+                    <td>{{c.ubicacion}}</td>
+                    <td>{{c.codigoPostal}}</td>
+                    <td>{{c.sexo}}</td>
+                    
+              </tr>
+          </tbody>
+</table>
+      
